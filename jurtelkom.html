@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500;600;700&amp;family=Montserrat:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"primary":"#abcfb8","background":"#0d141f","on-secondary-container":"#dab36a","secondary-fixed":"#ffdea5","inverse-primary":"#456553","on-primary":"#163627","on-secondary-fixed-variant":"#5d4201","surface-container":"#19202b","on-error-container":"#ffdad6","surface-container-lowest":"#070e19","on-surface":"#dce2f3","tertiary-fixed-dim":"#7bd0ff","tertiary":"#7bd0ff","primary-fixed":"#c7ebd4","surface-variant":"#2e3541","error":"#ffb4ab","surface-container-high":"#232a36","surface":"#0d141f","on-primary-fixed":"#002113","error-container":"#93000a","on-tertiary-fixed":"#001e2c","secondary-fixed-dim":"#e9c176","secondary-container":"#604403","surface-bright":"#333946","on-surface-variant":"#c1c8c2","surface-container-highest":"#2e3541","primary-fixed-dim":"#abcfb8","on-tertiary-container":"#02a9e3","tertiary-fixed":"#c4e7ff","on-secondary-fixed":"#261900","on-primary-fixed-variant":"#2d4d3c","primary-container":"#1b3b2b","outline-variant":"#424843","on-secondary":"#412d00","secondary":"#e9c176","on-background":"#dce2f3","tertiary-container":"#003950","outline":"#8b928c","surface-tint":"#abcfb8","surface-container-low":"#151c27","inverse-surface":"#dce2f3","on-primary-container":"#83a590","surface-dim":"#0d141f","on-tertiary-fixed-variant":"#004c69","inverse-on-surface":"#2a313d","on-tertiary":"#00354a","on-error":"#690005"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"grid-columns-mobile":"4","gutter-desktop":"1.5rem","grid-columns-desktop":"12","space-3xl":"4rem","space-xs":"0.25rem","margin-desktop":"3rem","space-md":"0.75rem","space-sm":"0.5rem","grid-columns-tablet":"8","space-2xl":"3rem","gutter-mobile":"1rem","space-base":"1rem","space-xl":"2rem","margin-mobile":"1rem","space-lg":"1.5rem","space-xxs":"0.125rem"},"fontFamily":{"label-lg":["JetBrains Mono"],"headline-lg":["Montserrat"],"body-md":["Inter"],"display-sm":["Montserrat"],"display-lg":["Montserrat"],"headline-md":["Montserrat"],"headline-sm":["Montserrat"],"body-lg":["Inter"],"body-sm":["Inter"],"label-sm":["JetBrains Mono"],"label-md":["JetBrains Mono"],"display-lg-mobile":["Montserrat"]},"fontSize":{"label-lg":["13px",{"lineHeight":"18px","letterSpacing":"0.08em","fontWeight":"600"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"display-sm":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.12em","fontWeight":"500"}],"label-md":["11px",{"lineHeight":"16px","letterSpacing":"0.1em","fontWeight":"500"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"800"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-primary"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="w-full bg-surface-container-lowest px-space-base lg:px-margin-desktop py-space-xxs flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant"><div class="flex items-center gap-space-lg"><span class="flex items-center gap-space-xs text-secondary"><span class="material-symbols-outlined text-[14px]">military_tech</span><span>KODIKLAT TNI AD • JURUSAN TELEKOMUNIKASI MILITER</span></span><span class="hidden md:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px] text-tertiary">shield_lock</span><span>KLASIFIKASI: TERBATAS / RESMI POLTEKAD</span></span></div><div class="flex items-center gap-space-base"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span><span class="text-primary">JARINGAN AKTIF: KOMLEK-NET SECURE</span></div><span class="hidden sm:inline text-on-surface-variant">|</span><div class="hidden sm:flex items-center gap-space-xs text-on-surface"><span class="material-symbols-outlined text-[14px]">schedule</span><span>SYS-TIME: 08:34:12 WIB [MLG]</span></div></div></div><div class="h-20 max-w-7xl mx-auto px-space-base lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-base"><div class="w-10 h-10 bg-surface-container flex items-center justify-center rounded-DEFAULT text-secondary shadow-inner"><span class="material-symbols-outlined text-[26px]">radar</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase text-on-surface tracking-wider font-bold">POLTEKAD KODIKLATAD</span><span class="font-label-md text-label-md uppercase text-secondary font-semibold">Jurusan Telekomunikasi</span></div></div><div class="flex items-center gap-space-md"><a class="hidden xl:flex items-center gap-space-xs px-space-base py-space-sm bg-primary-container text-on-primary font-label-md text-label-md uppercase rounded-DEFAULT transition-colors hover:bg-inverse-primary hover:text-on-primary" data-path="portal-akademik" href="#"><span class="material-symbols-outlined text-[16px]">school</span><span>SIAKAD Militer</span></a><a class="hidden lg:flex items-center gap-space-xs px-space-base py-space-sm bg-surface-container text-secondary font-label-md text-label-md uppercase rounded-DEFAULT transition-colors hover:bg-surface-container-high hover:text-on-secondary-container" data-path="riset-laboratorium-taktis" href="#"><span class="material-symbols-outlined text-[16px]">hub</span><span>Pusat Riset Komando</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div><div class="w-full bg-surface-container-low px-space-base lg:px-margin-desktop overflow-x-auto"><div class="max-w-7xl mx-auto"><nav class="flex items-center gap-space-xs py-space-xs whitespace-nowrap" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-DEFAULT"><a aria-current="page" class="px-space-md py-space-xs uppercase transition-colors bg-primary-container text-on-primary-container font-semibold rounded-DEFAULT" data-path="beranda" href="#">Beranda</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="profil-jurusan" href="#">Profil Jurusan</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="prodi-d4-telekomunikasi-militer" href="#">D-4 Telekomunikasi Militer</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="prodi-d4-rekayasa-keamanan-siber" href="#">D-4 Rekayasa Siber</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="riset-laboratorium-taktis" href="#">Riset &amp; Lab Taktis</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="sivitas-taruna" href="#">Sivitas &amp; Taruna</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="warta-pengumuman" href="#">Warta &amp; Pengumuman</a><a class="px-space-md py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="portal-akademik" href="#">Portal Akademik</a></nav></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- HERO SECTION TAKTIKAL MILITER -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest py-space-3xl px-space-base lg:px-margin-desktop">
+<!-- Tactical Vector Grid Pattern & Ambient Nodes -->
+<div class="absolute inset-0 pointer-events-none opacity-20">
+<svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="40" id="tactical-hero-grid" patternunits="userSpaceOnUse" width="40">
+<path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2e3541" stroke-width="0.8"></path>
+<circle cx="0" cy="0" fill="#abcfb8" opacity="0.6" r="1.5"></circle>
+</pattern>
+</defs>
+<rect fill="url(#tactical-hero-grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<!-- Background Ambient Glows -->
+<div class="absolute top-10 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-10 right-1/4 w-80 h-80 bg-secondary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative max-w-7xl mx-auto">
+<!-- Status Classification Sub-strip -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-xl">
+<div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-high rounded-DEFAULT text-secondary">
+<span class="material-symbols-outlined text-[16px] text-secondary">military_tech</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold">POLITEKNIK ANGKATAN DARAT • KODIKLAT TNI AD</span>
+</div>
+<div class="flex items-center gap-space-md font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="text-primary font-bold">READY STATUS: DEFCON-1 ACADEMIC</span>
+</span>
+<span class="hidden md:inline text-outline-variant">/</span>
+<span class="hidden md:inline font-mono">GRID: 07°53'14"S 112°32'48"E</span>
+</div>
+</div>
+<!-- Main Hero Content Split -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center">
+<!-- Text Column (7 cols) -->
+<div class="lg:col-span-7 flex flex-col space-y-space-lg">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xxs bg-primary-container/60 text-primary rounded-DEFAULT w-fit">
+<span class="material-symbols-outlined text-[14px]">cell_tower</span>
+<span class="font-label-sm text-label-sm uppercase">KOMLEK • SIBER • PERNIKA • C4ISR</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-surface font-extrabold leading-tight">
+            Pusat Keunggulan <span class="text-primary">Teknologi Komunikasi Taktis</span> &amp; Pertahanan Siber TNI AD
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Mencetak Perwira dan Bintara Teknisi Ahli Terapan yang Tanggap, Tanggon, dan Trengginas dalam mendominasi spektrum elektromagnetik, elektronika pertahanan, dan ketahanan siber medan tempur modern.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="flex items-center gap-space-sm px-space-lg py-space-md bg-primary-container text-primary font-label-lg text-label-lg uppercase rounded-DEFAULT shadow-md hover:bg-inverse-primary hover:text-on-primary transition-all" href="#komparasi-prodi">
+<span class="material-symbols-outlined text-[18px]">account_tree</span>
+<span>Jelajahi Program Studi</span>
+</a>
+<a class="flex items-center gap-space-sm px-space-lg py-space-md bg-surface-container text-secondary font-label-lg text-label-lg uppercase rounded-DEFAULT shadow-sm hover:bg-surface-container-high transition-all" href="#lab-taktis">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+<span>Laboratorium Taktis C4ISR</span>
+</a>
+<a class="flex items-center gap-space-xs px-space-md py-space-md text-on-surface-variant font-label-md text-label-md uppercase hover:text-on-surface transition-colors" href="#doktrin-kurikulum">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Unduh Silabus</span>
+</a>
+</div>
+<!-- Micro Telemetry Bar -->
+<div class="pt-space-md bg-surface-container-low p-space-md rounded-DEFAULT flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">verified_user</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">AKREDITASI INSTITUSI</span>
+<span class="font-label-sm text-label-sm text-secondary">UNGGUL • BAN-PT / LAM TEKNIK</span>
+</div>
+</div>
+<div class="hidden sm:flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px]">radar</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">SPEKTRUM TAKTIS</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">HF/VHF/UHF/SHF • MILSATCOM</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">security</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-bold">KESIAPAN KORPS</span>
+<span class="font-label-sm text-label-sm text-primary">100% SERAPAN PUSHUBAD &amp; SIBER</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Visual Emblem HUD Column (5 cols) -->
+<div class="lg:col-span-5 flex justify-center items-center relative">
+<!-- Circular Tactical Radar Reticle SVG -->
+<div class="relative w-72 h-72 sm:w-96 sm:h-96 flex items-center justify-center">
+<!-- Animated Radar Line -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none animate-[spin_12s_linear_infinite]" viewbox="0 0 400 400">
+<circle cx="200" cy="200" fill="none" r="195" stroke="#2e3541" stroke-dasharray="4 6" stroke-width="1.5"></circle>
+<circle cx="200" cy="200" fill="none" r="160" stroke="#232a36" stroke-width="1"></circle>
+<circle cx="200" cy="200" fill="none" r="120" stroke="#19202b" stroke-dasharray="8 8" stroke-width="1"></circle>
+<line opacity="0.5" stroke="#2e3541" stroke-width="0.8" x1="200" x2="200" y1="5" y2="395"></line>
+<line opacity="0.5" stroke="#2e3541" stroke-width="0.8" x1="5" x2="395" y1="200" y2="200"></line>
+<path d="M 200 200 L 370 270 A 195 195 0 0 0 395 200 Z" fill="url(#radar-sweep-grad)" opacity="0.25"></path>
+<defs>
+<lineargradient id="radar-sweep-grad" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#abcfb8" stop-opacity="0.6"></stop>
+<stop offset="100%" stop-color="#abcfb8" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+</svg>
+<!-- Military HUD Reticle Corner Brackets -->
+<div class="absolute -top-3 -left-3 w-8 h-8 flex flex-col justify-between">
+<span class="w-full h-0.5 bg-secondary"></span>
+<span class="w-0.5 h-full bg-secondary -mt-8"></span>
+</div>
+<div class="absolute -bottom-3 -right-3 w-8 h-8 flex flex-col justify-between items-end">
+<span class="w-full h-0.5 bg-secondary"></span>
+<span class="w-0.5 h-full bg-secondary -mt-8 self-end"></span>
+</div>
+<!-- Official Emblem Core Asset with Fallback Structure -->
+<div class="relative z-10 w-64 h-64 sm:w-80 sm:h-80 rounded-full p-2 bg-surface-container-low shadow-2xl flex items-center justify-center">
+<img alt="Emblem Resmi Jurusan Telekomunikasi Politeknik Angkatan Darat" class="w-full h-full object-contain rounded-full drop-shadow-[0_0_20px_rgba(233,193,118,0.25)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0fgC0AAFf6zQ1gVQrR0I_2RfDQ2hCdAE02C-2U_G-kPS7fty62M8vbG36N5x1oHz4oXtzPLrXNZRAlub_Pnnh1lAQkr7UlCEqOTsLs9vkaNkdgIOvkiyp-h1twzzaLVytgDBbAK_h6jGBOXoYWKvCdvm5x6l6rpef37HYW80mPOGng5bcM-ldBJc8kUZ200WYg5WLIZKEvC-JQjiRr07TXn4qrRflg_6C2pLWLrxe3riCoi3u6eO6"/>
+</div>
+<!-- Floating Data Badges Around Emblem -->
+<div class="absolute -bottom-4 left-4 z-20 px-space-sm py-space-xxs bg-surface-container-high rounded-DEFAULT text-primary font-label-sm text-label-sm flex items-center gap-space-xs shadow-md">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+<span>AES-256 / MIL-STD</span>
+</div>
+<div class="absolute -top-3 right-4 z-20 px-space-sm py-space-xxs bg-surface-container-high rounded-DEFAULT text-secondary font-label-sm text-label-sm flex items-center gap-space-xs shadow-md">
+<span class="material-symbols-outlined text-[14px]">hub</span>
+<span>C4ISR NODE #01</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Metrics Ribbon -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-base mt-space-3xl pt-space-xl">
+<div class="bg-surface-container p-space-lg rounded-DEFAULT flex flex-col justify-between relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase text-secondary">Tingkat Penempatan</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">military_tech</span>
+</div>
+<div class="font-display-sm text-display-sm font-extrabold text-on-surface">100%</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Satuan Hubdam &amp; Siber Markas Komando</span>
+<div class="w-full bg-surface-container-lowest h-1 mt-space-md rounded-full overflow-hidden">
+<div class="bg-secondary h-full w-full"></div>
+</div>
+</div>
+<div class="bg-surface-container p-space-lg rounded-DEFAULT flex flex-col justify-between relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase text-primary">Lab Pertahanan</span>
+<span class="material-symbols-outlined text-primary text-[20px]">science</span>
+</div>
+<div class="font-display-sm text-display-sm font-extrabold text-on-surface">12 Unit</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Fasilitas Uji Siber, Radar &amp; Telemetri</span>
+<div class="w-full bg-surface-container-lowest h-1 mt-space-md rounded-full overflow-hidden">
+<div class="bg-primary h-full w-11/12"></div>
+</div>
+</div>
+<div class="bg-surface-container p-space-lg rounded-DEFAULT flex flex-col justify-between relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase text-tertiary">Paten &amp; Alutsista</span>
+<span class="material-symbols-outlined text-tertiary text-[20px]">memory</span>
+</div>
+<div class="font-display-sm text-display-sm font-extrabold text-on-surface">38+ HKI</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Riset Terapan Litbang Komlek Militer</span>
+<div class="w-full bg-surface-container-lowest h-1 mt-space-md rounded-full overflow-hidden">
+<div class="bg-tertiary h-full w-4/5"></div>
+</div>
+</div>
+<div class="bg-surface-container p-space-lg rounded-DEFAULT flex flex-col justify-between relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase text-on-secondary-container">Kesiapan Taktis</span>
+<span class="material-symbols-outlined text-on-secondary-container text-[20px]">shield</span>
+</div>
+<div class="font-display-sm text-display-sm font-extrabold text-on-surface">STANAG</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Kompatibilitas Standar Operasi Militer</span>
+<div class="w-full bg-surface-container-lowest h-1 mt-space-md rounded-full overflow-hidden">
+<div class="bg-on-secondary-container h-full w-full"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- DUA PILAR PROGRAM STUDI UNGGULAN (KOMPARASI PRODI) -->
+<section class="w-full py-space-3xl px-space-base lg:px-margin-desktop bg-surface" id="komparasi-prodi">
+<div class="max-w-7xl mx-auto">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase mb-space-xs">
+<span class="material-symbols-outlined text-[16px]">domain</span>
+<span>Program Pendidikan Vokasi Militer</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+            Dua Pilar Kejuruan Pertahanan Berstandar Tinggi
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-lg">
+          Kurikulum berbasis kompetensi matra darat yang mengintegrasikan penguasaan sains terapan dengan kapabilitas tempur elektronika dan operasi siber.
+        </p>
+</div>
+<!-- Comparison Grid (Side by Side) -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-xl">
+<!-- PRODI 1: D-4 Telekomunikasi Militer -->
+<div class="bg-surface-container p-space-xl rounded-DEFAULT flex flex-col justify-between relative shadow-lg">
+<div class="flex flex-col">
+<!-- Program Header Strip -->
+<div class="flex items-center justify-between mb-space-md pb-space-sm bg-surface-container-low px-space-md py-space-xs rounded-DEFAULT">
+<span class="font-label-sm text-label-sm uppercase text-primary font-bold">KODE PRODI: D4-TELMIL</span>
+<span class="font-label-sm text-label-sm uppercase px-space-sm py-0.5 bg-primary-container text-on-primary rounded-DEFAULT">Terakreditasi Unggul</span>
+</div>
+<div class="flex items-start gap-space-md mb-space-md">
+<div class="w-12 h-12 bg-primary-container rounded-DEFAULT flex items-center justify-center text-primary shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[28px]">settings_input_antenna</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold leading-tight">
+                  D-4 Telekomunikasi Militer
+                </h3>
+<span class="font-label-md text-label-md text-secondary font-semibold">
+                  Tactical Communications &amp; Electronic Warfare Specialist
+                </span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+              Mendidik perwira ahli telekomunikasi taktis medan tempur yang menguasai perambatan gelombang radio, sistem peperangan elektronika (Pernika/EW), tautan data wahana tanpa awak, serta integrasi C4ISR matra darat.
+            </p>
+<!-- Focus Matrix -->
+<div class="mb-space-lg">
+<span class="font-label-md text-label-md uppercase text-on-surface font-bold block mb-space-sm">
+                Fokus Kompetensi Inti
+              </span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-primary text-[16px]">radio</span>
+<span>Sistem Radio HF/VHF Frequency Hopping</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-primary text-[16px]">satellite_alt</span>
+<span>Satelit Militer Taktis (MilSatCom)</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-primary text-[16px]">radar</span>
+<span>Peperangan Elektronika (ES, EA, EP)</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-primary text-[16px]">router</span>
+<span>Tactical Ad-Hoc Networks (MANET)</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-primary text-[16px]">network_node</span>
+<span>Komunikasi Data UAV &amp; Drone Link</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-primary text-[16px]">hub</span>
+<span>Arsitektur Battle Management C4ISR</span>
+</div>
+</div>
+</div>
+<!-- Profil Lulusan & Lab Khusus -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md mb-space-lg bg-surface-container-low p-space-md rounded-DEFAULT">
+<div>
+<span class="font-label-sm text-label-sm uppercase text-secondary block mb-space-xxs">Profil Lulusan</span>
+<ul class="font-body-sm text-body-sm text-on-surface-variant space-y-space-xxs">
+<li>• Komandan Regu/Peleton Hubdam</li>
+<li>• Teknisi Komunikasi Alutsista Tempur</li>
+<li>• Analis Spektrum Frekuensi Militer</li>
+</ul>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase text-secondary block mb-space-xxs">Laboratorium Spesifik</span>
+<ul class="font-body-sm text-body-sm text-on-surface-variant space-y-space-xxs">
+<li>• Lab Pernika &amp; Radar Taktis</li>
+<li>• Lab Radio Militer Anti-Jamming</li>
+<li>• Lab Propagasi &amp; Antena C4ISR</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Bottom Action -->
+<div class="pt-space-md flex items-center justify-between">
+<a class="w-full flex items-center justify-center gap-space-xs py-space-md bg-primary-container text-primary font-label-md text-label-md uppercase rounded-DEFAULT hover:bg-inverse-primary hover:text-on-primary transition-colors" data-path="prodi-d4-telekomunikasi-militer" href="#">
+<span>Detail Kurikulum &amp; Profil Telkom Militer</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- PRODI 2: D-4 Rekayasa Keamanan Siber -->
+<div class="bg-surface-container p-space-xl rounded-DEFAULT flex flex-col justify-between relative shadow-lg">
+<div class="flex flex-col">
+<!-- Program Header Strip -->
+<div class="flex items-center justify-between mb-space-md pb-space-sm bg-surface-container-low px-space-md py-space-xs rounded-DEFAULT">
+<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">KODE PRODI: D4-REKAMSIBER</span>
+<span class="font-label-sm text-label-sm uppercase px-space-sm py-0.5 bg-tertiary-container text-tertiary font-semibold rounded-DEFAULT">Program Prioritas Strategis</span>
+</div>
+<div class="flex items-start gap-space-md mb-space-md">
+<div class="w-12 h-12 bg-tertiary-container rounded-DEFAULT flex items-center justify-center text-tertiary shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[28px]">shield_lock</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold leading-tight">
+                  D-4 Rekayasa Keamanan Siber
+                </h3>
+<span class="font-label-md text-label-md text-secondary font-semibold">
+                  Cyber Defense, Cryptography &amp; Threat Intelligence Force
+                </span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+              Fokus pada pertahanan ruang siber pertahanan nasional, forensik digital spionase, kripto-analisis perangkat keras sandi militer, serta perlindungan infrastruktur komando dan kendali (C2) dari serangan APT global.
+            </p>
+<!-- Focus Matrix -->
+<div class="mb-space-lg">
+<span class="font-label-md text-label-md uppercase text-on-surface font-bold block mb-space-sm">
+                Fokus Kompetensi Inti
+              </span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-tertiary text-[16px]">policy</span>
+<span>Operasi SOC Pertahanan (Blue Team)</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-tertiary text-[16px]">vpn_key</span>
+<span>Kriptografi Taktis &amp; Sandi Militer</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-tertiary text-[16px]">bug_report</span>
+<span>Reverse Engineering Malware Alutsista</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-tertiary text-[16px]">csv</span>
+<span>Forensik Digital Militer &amp; Kontra-Intelijen</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-tertiary text-[16px]">memory</span>
+<span>Hardware Trojan &amp; Embedded Device Audit</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xs rounded-DEFAULT">
+<span class="material-symbols-outlined text-tertiary text-[16px]">security</span>
+<span>Red/Blue Team Cyber Range Exercises</span>
+</div>
+</div>
+</div>
+<!-- Profil Lulusan & Lab Khusus -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md mb-space-lg bg-surface-container-low p-space-md rounded-DEFAULT">
+<div>
+<span class="font-label-sm text-label-sm uppercase text-secondary block mb-space-xxs">Profil Lulusan</span>
+<ul class="font-body-sm text-body-sm text-on-surface-variant space-y-space-xxs">
+<li>• Perwira Analis Siber Pussansiad</li>
+<li>• Cyber Incident Responder Markas Besar</li>
+<li>• Analis Kriptanalisis &amp; Forensik Hankam</li>
+</ul>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase text-secondary block mb-space-xxs">Laboratorium Spesifik</span>
+<ul class="font-body-sm text-body-sm text-on-surface-variant space-y-space-xxs">
+<li>• Military Cyber Range Arena</li>
+<li>• Tactical Security Operations Center</li>
+<li>• Cryptographic Hardware Security Lab</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Bottom Action -->
+<div class="pt-space-md flex items-center justify-between">
+<a class="w-full flex items-center justify-center gap-space-xs py-space-md bg-tertiary-container text-tertiary font-label-md text-label-md uppercase rounded-DEFAULT hover:bg-surface-variant hover:text-on-surface transition-colors" data-path="prodi-d4-rekayasa-keamanan-siber" href="#">
+<span>Detail Kurikulum &amp; Profil Rekamsiber</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FASILITAS LABORATORIUM & RISET PERTAHANAN -->
+<section class="w-full py-space-3xl px-space-base lg:px-margin-desktop bg-surface-container-lowest" id="lab-taktis">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md uppercase mb-space-xs">
+<span class="material-symbols-outlined text-[16px]">biotech</span>
+<span>Infrastruktur Riset Tingkat Tinggi</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+            Laboratorium Taktis &amp; Simulasi Medan Peperangan
+          </h2>
+</div>
+<a class="inline-flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase hover:underline" data-path="riset-laboratorium-taktis" href="#">
+<span>Lihat Seluruh 12 Laboratorium</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- 4 Lab Showcase Cards with Detailed Placeholder Imagery -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Lab 1: Cyber Range -->
+<div class="bg-surface-container rounded-DEFAULT overflow-hidden shadow-md flex flex-col group hover:bg-surface-container-high transition-all">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern military cyber defense operation center with command terminals, blue telemetry screens, and officers in tactical uniform analyzing digital threats, cinematic lighting in dark palette" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd8omluskinaCKIZ2sJe4EXh-ZL2es5tXM86ybl5PTO56CG2S_MxMkw4rTPmvNzAxRa4gbwpAArVC4b4Q6TXBFSwynY1vhMQGuGpBUj-RcIB1yddcN1-UZC9ckK3abOg98-L24M7vppYdpkLz1VjRnpH57SDlG7KIJaTA9Rl-inT9w6T5knVyO4Ox1mAscEBkzXE1TfOoPuWR96DN9Bqd8M8-pLnqN4qjSvLgbdlWnFWPDYGJa5l6j"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-space-sm left-space-sm px-space-xs py-space-xxs bg-surface-container-lowest/90 font-label-sm text-label-sm text-tertiary rounded-DEFAULT">
+              LAB-01 CYBER RANGE
+            </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-space-xs">
+                Military Cyber Range Simulator
+              </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Simulator skenario perang siber skala luas dengan emulasi jaringan taktis real-world, latihan pertahanan Red vs Blue, dan injeksi kerentanan zero-day.
+              </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>KAPASITAS: 40 OPERATOR</span>
+<span class="text-primary font-semibold">STATUS: AKTIF</span>
+</div>
+</div>
+</div>
+<!-- Lab 2: Electronic Warfare & SIGINT -->
+<div class="bg-surface-container rounded-DEFAULT overflow-hidden shadow-md flex flex-col group hover:bg-surface-container-high transition-all">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Advanced military electronic warfare laboratory with signal spectrum analyzers, radio frequency jamming instruments, and radar measurement antennas in dark tactical defense ambiance" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPlQSjGzE-DXab_EJof8TamC41Yzi-qttdohC1zqlx7rb_NFq6p3eZYTsYSjbHUS6C1a-gtVCX5r8v0-LukuI5IoChKUHBw4KRJXwIyKHC5yuvWnuEBsHj5mt_AwL2ASzAPYXegnWm7EJttA7IcJbrT-_XDdxOH0VR8PT1thXUgOwg7TcxPIHPFOFuvffShfXPNbgcpikMTyA0xl_5igkxnc2Wfn1qKueRESsUT4KT-PM9zHg83hB-"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-space-sm left-space-sm px-space-xs py-space-xxs bg-surface-container-lowest/90 font-label-sm text-label-sm text-secondary rounded-DEFAULT">
+              LAB-02 PERNIKA &amp; SIGINT
+            </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-space-xs">
+                Lab Pernika &amp; Signals Intelligence
+              </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Ruang anechoic chamber dan instrumen analisis spektrum frekuensi tinggi untuk pengujian intersepsi sinyal musuh, modulasi taktis, dan electronic counter-measures (ECM).
+              </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>SPEKTRUM: 9kHz - 40GHz</span>
+<span class="text-primary font-semibold">STATUS: AKTIF</span>
+</div>
+</div>
+</div>
+<!-- Lab 3: Tactical SatCom & Drone Data Link -->
+<div class="bg-surface-container rounded-DEFAULT overflow-hidden shadow-md flex flex-col group hover:bg-surface-container-high transition-all">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Military tactical satellite communication ground station dish and unmanned aerial vehicle telemetry control console inside an army research base, technical military aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0FBpptvJwsIe2pZZPBfEKSx3jGlk5ilQY_GJGcz9DLGcT8mONWC3JsZQD6fOee8mHoMDdHWxMUDPGYhpM9hIkDW7Rja3t3VOta7bjateGiM9lCks6dzs_fQQOdLOn6Zuw_QnqdEruazUgMzx6QCR4XQTwATzHHaGenJlIIvXvD1Fn2IEEPfwOX60RPp8P-_xAveESGUsN62lBhbu9_o-0DCYPZxJvHMpWPnCwrEClUVuCxKwxsN-X"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-space-sm left-space-sm px-space-xs py-space-xxs bg-surface-container-lowest/90 font-label-sm text-label-sm text-primary rounded-DEFAULT">
+              LAB-03 SATCOM &amp; UAV LINK
+            </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-space-xs">
+                Lab Tactical SatCom &amp; UAV Link
+              </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Stasiun bumi telemetri portabel untuk transmisi video pengintaian udara terenkripsi, terminal satelit militer X-band/Ku-band, dan sistem pemandu drone taktis.
+              </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>LINK: DUAL-BAND ENCRYPTED</span>
+<span class="text-primary font-semibold">STATUS: AKTIF</span>
+</div>
+</div>
+</div>
+<!-- Lab 4: Hardware Security & Tactical Cryptography -->
+<div class="bg-surface-container rounded-DEFAULT overflow-hidden shadow-md flex flex-col group hover:bg-surface-container-high transition-all">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cryptographic microchip cleanroom laboratory with microscopic inspection of military silicon hardware, oscilloscopes and side-channel attack analysis equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpIUW29_4L1hIwMdrDgkLX_ldKC75xBgUm8cJZqvRcPMI8q45MHryRDmtV9JhagqToipgMliDlZp65YriQENsR1T_OofFGEWXjZ3XlgDODcHXr4i5sQekk9yFtL7j2kdFp0tNa_CgDf1crlebZtlx7Wctc4XKoS3f6ZcVFfIGKI74fbbWOc3e6F5pMN6xx0SjSsMIsYDFIH4Kp3akZpRtUnIHt1EDlSC07jxoCNkJ8PjeX6j14vU-P"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-space-sm left-space-sm px-space-xs py-space-xxs bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-secondary-container rounded-DEFAULT">
+              LAB-04 KRIPTO-HARDWARE
+            </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-space-xs">
+                Lab Hardware Security &amp; Sandi
+              </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Fasilitas riset pengujian chip fisik terhadap side-channel analysis, implementasi FPGA algoritma sandi negara, dan pengamanan modul memori alutsista mandiri.
+              </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>STANDAR: FIPS 140-3 LEVEL 4</span>
+<span class="text-primary font-semibold">STATUS: AKTIF</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SISTEM PENDIDIKAN DOKTRIN MILITER & AKADEMIK (TRI POLA DASAR) -->
+<section class="w-full py-space-3xl px-space-base lg:px-margin-desktop bg-surface" id="doktrin-kurikulum">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-space-2xl">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xxs bg-surface-container text-secondary font-label-sm text-label-sm uppercase rounded-DEFAULT mb-space-sm">
+<span class="material-symbols-outlined text-[14px]">shield</span>
+<span>FILOSOFI PENDIDIKAN PERWIRA TEKNISI</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+          Tri Pola Dasar Pendidikan Poltekad Kodiklatad
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Keseimbangan integral antara ketajaman intelektual telekomunikasi canggih, integritas moral keprajuritan Sapta Marga, dan ketangguhan fisik lapangan.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-xl">
+<!-- Tanggap -->
+<div class="bg-surface-container p-space-xl rounded-DEFAULT shadow-md relative overflow-hidden flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-DEFAULT bg-primary-container flex items-center justify-center text-primary mb-space-md shadow-inner">
+<span class="material-symbols-outlined text-[32px]">psychology</span>
+</div>
+<span class="font-label-lg text-label-lg text-primary uppercase font-bold block mb-space-xxs">PILAR I</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-sm">TANGGAP</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+              Keunggulan intelektual dan daya nalar ilmiah. Bintara Mahasiswa dibekali fondasi matematika diskrit, rekayasa gelombang mikro, kecerdasan buatan pertahanan, serta kecepatan analisis taktis saat sistem komunikasi terputus.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-DEFAULT text-on-surface font-label-sm text-label-sm">
+<span class="text-secondary font-semibold">KOMPETENSI:</span> Riset Alutsista, Red/Blue Team Tactics, Inovasi Komlek Terapan.
+          </div>
+</div>
+<!-- Tanggon -->
+<div class="bg-surface-container p-space-xl rounded-DEFAULT shadow-md relative overflow-hidden flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-DEFAULT bg-secondary-container flex items-center justify-center text-secondary mb-space-md shadow-inner">
+<span class="material-symbols-outlined text-[32px]">verified</span>
+</div>
+<span class="font-label-lg text-label-lg text-secondary uppercase font-bold block mb-space-xxs">PILAR II</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-sm">TANGGON</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+              Kekuatan mental kepribadian dan loyalitas tegak lurus. Berlandaskan Sapta Marga, Sumpah Prajurit, dan 8 Wajib TNI. Memiliki integritas kerahasiaan sandi negara yang tak tergoyahkan oleh perang informasi apa pun.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-DEFAULT text-on-surface font-label-sm text-label-sm">
+<span class="text-secondary font-semibold">KOMPETENSI:</span> Disiplin Militer Baja, Etika Siber Hankam, Ketahanan Rahasia Negara.
+          </div>
+</div>
+<!-- Trengginas -->
+<div class="bg-surface-container p-space-xl rounded-DEFAULT shadow-md relative overflow-hidden flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-DEFAULT bg-tertiary-container flex items-center justify-center text-tertiary mb-space-md shadow-inner">
+<span class="material-symbols-outlined text-[32px]">fitness_center</span>
+</div>
+<span class="font-label-lg text-label-lg text-tertiary uppercase font-bold block mb-space-xxs">PILAR III</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-space-sm">TRENGGINAS</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+              Kesamaptaan jasmani dan ketangkasan taktis medan terbuka. Mampu menggelar stasiun pemancar repeater darurat di puncak gunung, rawa, ataupun hutan rimba dalam kondisi pertempuran nyata tanpa mengenal lelah.
+            </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-DEFAULT text-on-surface font-label-sm text-label-sm">
+<span class="text-secondary font-semibold">KOMPETENSI:</span> Operasi Taktis Hutan/Gunung, Deploy Antenna Cepat, Ketahanan Fisik Prima.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- AGENDA AKADEMIK & WARTA LITBANG MILITER -->
+<section class="w-full py-space-3xl px-space-base lg:px-margin-desktop bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase mb-space-xs">
+<span class="material-symbols-outlined text-[16px]">newspaper</span>
+<span>Warta Markas &amp; Kemajuan Litbang</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+            Agenda Strategis &amp; Terobosan Riset Terkini
+          </h2>
+</div>
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container text-on-surface font-label-md text-label-md uppercase rounded-DEFAULT hover:bg-surface-container-high transition-colors" data-path="warta-pengumuman" href="#">
+<span>Arsip Berita Hankam</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-xl">
+<!-- Article 1: Seleksi Penerimaan -->
+<article class="bg-surface-container rounded-DEFAULT p-space-lg shadow-md flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between text-secondary font-label-sm text-label-sm mb-space-sm">
+<span class="px-space-xs py-0.5 bg-secondary-container text-secondary rounded-DEFAULT font-bold">PENGUMUMAN RESMI</span>
+<span>15 MEI 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">
+              Penerimaan Bintara Mahasiswa (Bamasis) TA 2025/2026 Jurusan Telekomunikasi Poltekad
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Mabesad membuka kesempatan bagi prajurit berpangkat Sersan Dua hingga Sersan Kepala dari seluruh kotama TNI AD untuk mengikuti seleksi program Diploma-4 Telekomunikasi Militer dan Rekayasa Siber.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-primary font-label-sm text-label-sm">
+<span class="flex items-center gap-space-xxs">
+<span class="material-symbols-outlined text-[16px]">how_to_reg</span>
+<span>KORPS KELAYAKAN: CHB/INF/KAV/ARM</span>
+</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</article>
+<!-- Article 2: Uji Lapangan Radio Taktis -->
+<article class="bg-surface-container rounded-DEFAULT p-space-lg shadow-md flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between text-primary font-label-sm text-label-sm mb-space-sm">
+<span class="px-space-xs py-0.5 bg-primary-container text-primary rounded-DEFAULT font-bold">LITBANG MILITER</span>
+<span>28 APR 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">
+              Uji Gelar Lapangan Prototipe Tactical SDR Anti-Jamming Hasil Inovasi Lab Pernika
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Sivitas akademika Poltekad sukses melaksanakan uji transmisi data taktis berkecepatan 1.2 Mbps dengan proteksi hopping 1.000 hop/detik di medan latihan Puslatpur Kodiklatad Baturaja.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-primary font-label-sm text-label-sm">
+<span class="flex items-center gap-space-xxs">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>HASIL UJI: TEMBUS JAMMING 99.4%</span>
+</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</article>
+<!-- Article 3: Cyber Warfare Exercise -->
+<article class="bg-surface-container rounded-DEFAULT p-space-lg shadow-md flex flex-col justify-between hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex items-center justify-between text-tertiary font-label-sm text-label-sm mb-space-sm">
+<span class="px-space-xs py-0.5 bg-tertiary-container text-tertiary rounded-DEFAULT font-bold">LATIHAN OPERASI</span>
+<span>12 APR 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">
+              Latihan Taktis Gabungan "Siber Waspada 2025" Bersama Pusansiad &amp; Disinfolahtad
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Simulasi skenario invasi siber terhadap sistem kendali rudal pertahanan udara dan transmisi citra satelit intai secara simultan selama 72 jam nonstop di arena Cyber Range Poltekad.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-primary font-label-sm text-label-sm">
+<span class="flex items-center gap-space-xxs">
+<span class="material-symbols-outlined text-[16px]">shield</span>
+<span>DEFENSE MATRIX: SECURED</span>
+</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- CALL TO ACTION PORTAL KOMANDO AKADEMIK -->
+<section class="w-full py-space-3xl px-space-base lg:px-margin-desktop bg-surface relative overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<div class="bg-surface-container p-space-2xl rounded-DEFAULT shadow-xl relative overflow-hidden">
+<!-- Subtle Vector Mesh Decorative -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-primary/5 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-8 flex flex-col space-y-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xxs bg-surface-container-low text-secondary rounded-DEFAULT w-fit font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">key</span>
+<span>JARINGAN INTRA-MILITER TERENKRIPSI</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-bold">
+              Portal Layanan Komando Akademik &amp; Litbang Pertahanan
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Akses terpusat untuk Dosen Militer/Sipil, Tenaga Kependidikan, serta Bintara Mahasiswa (Bamasis) Jurusan Telekomunikasi Poltekad ke Sistem Informasi Akademik (SIAKAD Militer), E-Library Pertahanan, Repositori Naskah Departemen, dan Jadwal Uji Taktis Lapangan.
+            </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="flex items-center gap-space-xs px-space-lg py-space-md bg-primary-container text-primary font-label-lg text-label-lg uppercase rounded-DEFAULT shadow-md hover:bg-inverse-primary hover:text-on-primary transition-all" data-path="portal-akademik" href="#">
+<span class="material-symbols-outlined text-[18px]">vpn_key</span>
+<span>Masuk SIAKAD Militer</span>
+</a>
+<a class="flex items-center gap-space-xs px-space-lg py-space-md bg-surface-container-high text-on-surface font-label-lg text-label-lg uppercase rounded-DEFAULT hover:bg-surface-variant transition-colors" data-path="riset-laboratorium-taktis" href="#">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span>E-Library &amp; Jurnal Hankam</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-4 bg-surface-container-low p-space-lg rounded-DEFAULT flex flex-col space-y-space-md shadow-inner">
+<div class="flex items-center justify-between pb-space-xs bg-surface-container px-space-sm py-space-xxs rounded-DEFAULT font-label-sm text-label-sm text-on-surface-variant">
+<span>SECURITY CERTIFICATE</span>
+<span class="text-primary font-bold">VALID / 2025</span>
+</div>
+<div class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center justify-between">
+<span>Otentikasi Kredensial:</span>
+<span class="font-mono text-on-surface text-label-sm">PKI 2-FACTOR</span>
+</div>
+<div class="flex items-center justify-between">
+<span>Protokol Enkripsi:</span>
+<span class="font-mono text-on-surface text-label-sm">TLS 1.3 / E-GOV HANKAM</span>
+</div>
+<div class="flex items-center justify-between">
+<span>Host Server:</span>
+<span class="font-mono text-on-surface text-label-sm">DC POLTEKAD MALANG</span>
+</div>
+</div>
+<div class="pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary block mb-space-xxs">BANTUAN TEKNIS KOMLEK:</span>
+<span class="font-body-sm text-body-sm text-on-surface font-mono">Sentral Ext. 404 / 405 (Piket Hubdam)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-3xl py-space-2xl text-on-surface"><div class="max-w-7xl mx-auto px-space-base lg:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl mb-space-2xl"><div><div class="flex items-center gap-space-sm mb-space-md"><div class="w-8 h-8 bg-surface-container flex items-center justify-center text-secondary rounded-DEFAULT"><span class="material-symbols-outlined text-[20px]">radar</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase text-on-surface font-bold">POLTEKAD</span><span class="font-label-sm text-label-sm uppercase text-secondary">Jurusan Telekomunikasi</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">Pusat keunggulan pendidikan vokasi militer bidang telekomunikasi taktis, elektronika pertahanan, dan rekayasa keamanan siber Kodiklat TNI AD.</p><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-primary"><span class="material-symbols-outlined text-[16px]">verified</span><span>Akreditasi Unggul • BAN-PT / Kemhan RI</span></div></div><div><div class="font-headline-sm text-headline-sm uppercase text-secondary mb-space-md font-semibold">Ksatrian &amp; Kontak Markas</div><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary mt-0.5">location_on</span><span>Ksatrian Poltekad Kodiklatad, Jl. Kesatrian No. 1, Pendem, Kec. Junrejo, Kota Batu, Malang, Jawa Timur 65324</span></li><li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">call</span><span>Sentral Komlek: (0341) 591-180</span></li><li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-primary">mail</span><span>telekomunikasi@poltekad.ac.id</span></li></ul></div><div><div class="font-headline-sm text-headline-sm uppercase text-secondary mb-space-md font-semibold">Instansi Pertahanan</div><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>Kementerian Pertahanan RI</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>Mabes Tentara Nasional Indonesia</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>Mabes TNI Angkatan Darat</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>Kodiklat TNI AD Bandung</a></li><li><a class="hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-[14px]">chevron_right</span>Pusat Perhubungan TNI AD (Pushubad)</a></li></ul></div><div><div class="font-headline-sm text-headline-sm uppercase text-secondary mb-space-md font-semibold">Protokol &amp; Keamanan Siber</div><div class="bg-surface-container-low p-space-md rounded-DEFAULT mb-space-md"><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-error mb-space-xs"><span class="material-symbols-outlined text-[16px]">security</span><span>SECURITY NOTICE</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Seluruh transmisi terenkripsi AES-256. Akses ilegal ke pangkalan data taktis dan militer akan ditindak berdasarkan hukum militer dan UU ITE.</p></div><div class="flex items-center gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px] text-tertiary">lock</span><span>SECURE CONNECTION ACTIVE</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-label-sm text-label-sm text-on-surface-variant"><div class="flex items-center gap-space-xs"><span>© 2025 JURUSAN TELEKOMUNIKASI POLTEKAD KODIKLATAD. HAK CIPTA DILINDUNGI NEGARA.</span></div><div class="flex items-center gap-space-base"><a class="hover:text-on-surface transition-colors" href="#">STANDAR OPERASIONAL PROSEDUR</a><a class="hover:text-on-surface transition-colors" href="#">INTEGRITAS AKADEMIK</a><a class="hover:text-on-surface transition-colors" href="#">KODE ETIK PERWIRA TARUNA</a></div></div></div></footer></body></html>
